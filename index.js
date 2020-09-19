@@ -22,6 +22,8 @@ const Edit = require("./routes/Edit");
 app.use(Edit);
 const Answer = require("./routes/Answer");
 app.use(Answer);
+const Delete = require("./routes/Delete");
+app.use(Delete);
 const Home = require("./routes/Home");
 app.use(Home);
 

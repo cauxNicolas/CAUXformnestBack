@@ -1,11 +1,13 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const router = express.Router();
 const Formulaire = require("../models/Formulaire");
 
 // stackoverflow
-/* var id = mongoose.Types.ObjectId("4edd40c86762e0fb12000003");
-console.log(id); */
+/* 
+const mongoose = require("mongoose");
+var id = mongoose.Types.ObjectId("4edd40c86762e0fb12000003");
+console.log(id);
+*/
 
 // POST
 router.post("/edit/:id", async (req, res) => {
